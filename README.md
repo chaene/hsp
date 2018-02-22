@@ -28,3 +28,13 @@ The data is provided [here](https://drive.google.com/file/d/1xtJz5CEEPgYOtWP6Dr6
 To train a network the paths to the shapenet dataset and the output folder in the "parameters.lua" file need to be adjusted first.
 
 th trainNetworkHierarchical.lua &lt;GPU ID&gt; &lt;Parameter File Name&gt;
+
+
+## License and Citation
+
+The code is released as GPLv2.
+
+When using the provided data make sure to respect the shapenet [license](https://shapenet.org/terms).
+
+Please cite our paper when using the code.<br />
+C. Häne, S. Tulsiani, J. Malik, <B>Hierarchical Surface Prediction for 3D Object Reconstruction</B>, Proc. Int. Conf. on 3D Vision (3DV), 2017 
